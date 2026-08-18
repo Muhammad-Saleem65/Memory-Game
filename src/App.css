@@ -1,0 +1,77 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background: linear-gradient(to right, #731DD8 0%, #5F18B2 50%, #3F1077 100%);
+    color: #E4DFDA;
+}
+
+header {
+    text-align: center;
+    padding-top: 30px;
+}
+
+h1 {
+    margin: 0;
+    color: #ffffff;
+    font-size: clamp(2rem, 4vw, 3rem);
+    letter-spacing: 1px;
+}
+
+.InfoContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: 50px;
+
+}
+
+section {
+    padding-left: 40px;
+    padding-right: 40px;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 15px;
+    max-width: 1200px;
+    margin: 50px auto;
+}
+
+button {
+    padding: 5px;
+    border: 2px solid #ccc;
+    border-radius: 8px;
+    background-color: #f5f5f5;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover {
+    background-color: #e0e0e0;
+    transform: scale(1.05);
+}
+
+button img {
+    width: 50%;
+    height: auto;
+}
+
+button p {
+    margin: 10px 0 0 0;
+    text-transform: capitalize;
+}
+
+.CurrentScore {
+    background: linear-gradient(to right, #48A9A6 0%, #409693 50%, #29605E 100%);
+    color: #E4DFDA;
+    padding: 20px;
+    border-radius: 20px;
+    font-weight: bold;
+}
+
+.BestScore {
+    background: linear-gradient(to right, #48A9A6 0%, #409693 50%, #29605E 100%);
+    color: #E4DFDA;
+    padding: 20px;
+    border-radius: 20px;
+    font-weight: bold;
+}
