@@ -1,0 +1,2 @@
+# Memory-Game
+Pokemon Memory Game is an interactive React app that fetches data from the Pokémon API to test user memory. Players earn points by clicking unique Pokémon cards without picking the same one twice, as the board reshuffles on every click. This project sharpened my skills in React state management, event handling, async API fetching, and UI logic.
